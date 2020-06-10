@@ -21,7 +21,7 @@ client.on('ready', () => {
 })
 
 client.on('message', msg => {
-    if(msg.content == "!r"){
+    if(msg.content == "!minecraft"){
         msg.reply(encodeURI(`https://minecraft.gamepedia.com/${randomElement(entities).displayName}`))
     }
 })
